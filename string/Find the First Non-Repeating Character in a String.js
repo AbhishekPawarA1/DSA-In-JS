@@ -28,4 +28,3 @@ function firstchar() {
 let str = "swiss";
 
 clog(firstchar(str))
-
