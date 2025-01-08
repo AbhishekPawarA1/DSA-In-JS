@@ -42,7 +42,7 @@ while (j < arr2.length) {
   j++;
 }
 
-console.log(res);
+console.log(res) ;
 
 
 
