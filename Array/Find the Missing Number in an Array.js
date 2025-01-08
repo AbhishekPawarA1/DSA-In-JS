@@ -17,12 +17,15 @@
 // Sum = 𝑛 × ( 𝑛+1) / 2
 // Subtract the sum of the array elements from the calculated sum to find the missing number.
 
-let arr = [3, 7, 1, 2, 8, 4, 5];
-let n = 8
-let sum = n * (n + 1) / 2
-let allsum = arr.reduce((a, b) => a + b, 0)
-let value=sum-allsum
+let arr = [1, 2, 4, 5]
+
+let n = Math.max(...arr)
+let sum = n * (n + 1) / 2;
+let allsum = arr.reduce((a, b) => a + b, 0);
+let value = sum - allsum
 console.log(value);
+
+
 
 
 
