@@ -14,9 +14,9 @@
 // console.log(value);
 
 
-// let arr1 = [1, 2, 3, 4]
-// let arr2 = [4, 3]
-// let result=[]
+// let arr1 = [1, 2, 3, 4,4]
+// let arr2 = [4,4, 3]
+// let result=new Set()
 // let dec={}
 // for (let i = 0; i <arr1.length; i++) {
 //     if(arr1[i] in dec) {
@@ -28,12 +28,12 @@
 // }
 // for (let j = 0; j < arr2.length; j++) {
 //     if (dec[arr2[j]]) {
-//         result.push(arr2[j])
+//         result.add(arr2[j])
 //         dec[arr2[j]]-=1
 //     }
 // }
 
-// console.log(result);
+// console.log([...result]);
 
 // Input: [1, 2, 3, 4, 5], (k = 2);
 // Output: [4, 5, 1, 2, 3];
