@@ -99,3 +99,60 @@
 // let str2 = "silenp"
 // console.log(Anagram(str1,str2));
 
+
+
+
+// Input: [1, 2, 3, 4, 5], (k = 2);
+// Output: [4, 5, 1, 2, 3];
+
+// Input: [1, 2, 3, 4, 5], (k = 3);
+// // Output: [3, 4, 5, 1, 2];
+
+// let str = [1, 2, 3, 4, 5]
+// let k = 3;
+
+// let part1 = str.slice(-k);
+// let part2 = str.slice(0, str.length - k);
+
+// let value = part1.concat(part2)
+
+// console.log(value);
+
+
+
+// Input: [1, 3, 5], [2, 4, 6];
+// Output: [1, 2, 3, 4, 5, 6];
+
+// Input: [1, 2], [3, 4, 5];
+// Output: [1, 2, 3, 4, 5];
+// let arr1 = [1, 2];
+// let arr2 = [2, 4, 6];
+
+// i = 0
+// j = 0
+// let res=[]
+// while (i < arr1.length && j<arr2.length) {
+//     if (arr1[i] > arr2[j]) {
+//         res.push(arr2[j])
+//         j++
+//     }
+//     else {
+//         res.push(arr1[i])
+//         i++
+//     }
+// }
+
+
+// while (i<arr1.length) {
+//     res.push(arr1[i])
+//     i++
+// }
+
+// while (j<arr2.length) {
+//     res.push(arr2[j])
+//     j++
+// }
+
+// console.log(res);
+
+
