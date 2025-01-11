@@ -11,7 +11,7 @@ k = k % arr.length;
 // console.log(arr.length)
 
 // Slice the array into two parts and rearrange
-const part1 = arr.slice(-k);
+const part1 = arr.slice(-k );
 console.log(part1)
 const part2 = arr.slice(0, arr.length - k);
 console.log(part2);
