@@ -5,8 +5,8 @@
 // Output: [3, 4, 5, 1, 2];
 
 
-let arr = [1, 2, 3, 4, 5];
-let k = 3
+let arr = [0, -1, 2];
+let k = 4
 k = k % arr.length;
 // console.log(arr.length)
 
@@ -18,5 +18,10 @@ console.log(part2);
 console.log(part1.concat(part2));
 
 
+// Input: [1, 2, 3, 4, 5], (k = 2);
+// Output: [4, 5, 1, 2, 3];
+
+// Input: [0, -1, 2], (k = 4);
+// Output: [2, 0, -1];
 
 
